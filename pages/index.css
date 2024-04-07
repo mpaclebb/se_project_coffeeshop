@@ -1,10 +1,14 @@
 .page {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
     min-width: 1100px;
     max-width: 1600px;
-    margin: auto;
+}
+
+.page h1, .page h2, .page h3, .page h4, .page h5, .page h6 {
+  /* Specific font for headings within .page */
+  font-family: 'Noto Serif', 'Times New Roman', serif;
 }
 
 .header {
@@ -27,4 +31,7 @@ body {
   color: #333;
   background-color: #f4f4f4;
   padding: 20px;
+}
+
+footer {
 }
