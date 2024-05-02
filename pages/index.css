@@ -167,6 +167,11 @@ color:white
 .reservation__title{
   margin:0 0 80px;
   text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .reservation__form {
@@ -187,6 +192,23 @@ padding: 0;
   display:block;
 }
 
+.form__label-text {
+  font-family: 'Inter', sans-serif; /* Ensure Inter is loaded in your project */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input::placeholder{
+    font-family: 'Inter', sans-serif; /* Specifies the font family */
+    font-style: normal; /* Normal font style */
+    font-weight: normal; /* Normal font weight, equivalent to font-weight: 400 */
+    font-size: 20px; /* Font size of 20px */
+    line-height: 30px; /* Line height of 30px */
+    color: #838383; /* Color of the placeholder text */
+}
+
 .form__label_type_checkbox{
   display:flex;
   justify-content: center;
@@ -201,20 +223,43 @@ padding: 0;
 }
 
 .form__button{
+  font-family: 'Inter', sans-serif; /* Setting the font family to Inter */
+  font-style: normal;               /* Font style is normal (not italic or oblique) */
+  font-weight: 500;                 /* Medium font weight, which is semi-bold */
+  font-size: 16px;                  /* Font size of 16 pixels */
+  line-height: 20px;
+  height: 60px;
   width:100%;
   padding:0;
   border:none;
   margin-bottom: 32px;
   border-radius: 4px;
   transition: opacity 0.3s ease;
+  background-color: blue;
+  color:white;
 }
 
 .form__button:hover{
 opacity: 0.7;
 }
 
+.form__checkbox-label{
+  display: flex;
+  font-family: 'Inter', sans-serif; /* Inter font for readability and aesthetics */
+  font-style: normal;               /* Normal font style, not italic */
+  font-weight: 500;                 /* Medium weight for emphasis */
+  font-size: 16px;                  /* Adequate size for readability */
+  line-height: 20px;                /* Proper line height for spacing */
+  cursor: pointer;                  /* Indicates the label (and thus the text) is clickable */
+  display: inline-block;
+  margin-bottom: 120px;
+}
+
 .form__checkbox{
 border-radius: 2px;
+width: 20px;
+height: 20px;
+margin-right: 12px;
 }
 .footer {
 }
