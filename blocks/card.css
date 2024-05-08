@@ -1,0 +1,27 @@
+.card{
+  width: 540px;
+}
+
+.card__list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__title{
+  margin: 0 0 32px;
+}
+
+.card__list-item{
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.card__list-divider{
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+}
+
