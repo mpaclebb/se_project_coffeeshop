@@ -12,7 +12,6 @@
   }
 
   .form__label-text {
-    font-family: 'Inter', sans-serif; /* Ensure Inter is loaded in your project */
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
