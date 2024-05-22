@@ -18,7 +18,7 @@
 }
 
 .form__input::placeholder {
-  font-family: "Inter", sans-serif; /* Specifies the font family */
+  font-family: "Inter", "arial", sans-serif; /* Specifies the font family */
   font-style: normal; /* Normal font style */
   font-weight: normal; /* Normal font weight, equivalent to font-weight: 400 */
   font-size: 20px; /* Font size of 20px */
@@ -45,11 +45,10 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
 }
 
 .form__button {
-  font-family: "Inter", sans-serif; /* Setting the font family to Inter */
+  font-family: "Inter", "Arial", sans-serif; /* Setting the font family to Inter */
   font-style: normal; /* Font style is normal (not italic or oblique) */
   font-weight: 500; /* Medium font weight, which is semi-bold */
   font-size: 16px; /* Font size of 16 pixels */

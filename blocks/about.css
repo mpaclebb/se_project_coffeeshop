@@ -1,9 +1,9 @@
 @keyframes pulsate {
   0% {
-    opacity: scale(1);
+    opacity: 0;
   }
   50% {
-    opacity: scale(1);
+    opacity: 0.6;
   }
   100% {
     opacity: 0;
@@ -29,7 +29,7 @@
   font-weight: 500;
   z-index: 1;
   max-width: 251px;
-  font-family: "Inter", "Times new roman", serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
 }
 
@@ -42,7 +42,6 @@
   position: relative;
   margin-top: 19px;
   margin-bottom: 173px;
-  margin-right: 80px;
 }
 
 .about__circle {
@@ -55,7 +54,7 @@
   left: -129px;
 }
 
-.about__circle--animation-blurred {
+.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
 }
 
