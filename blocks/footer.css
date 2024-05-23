@@ -44,7 +44,7 @@
   color: #fff; /* White link color */
   text-decoration: none; /* No underline */
   gap: 10px;
-  transition: opacity 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .footer__social-link:hover {
